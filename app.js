@@ -286,3 +286,104 @@
   }
 
 })();
+
+/* ============================================================
+   Notification favicon + flashing title when tab is inactive
+   ============================================================ */
+(function () {
+  'use strict';
+
+  var originalTitle = document.title;
+  var originalFavicon = null;
+  var notificationFavicon = null;
+  var flashInterval = null;
+  var isFlashing = false;
+
+  // Capture original favicon href
+  var linkEl = document.querySelector('link[rel="icon"][type="image/png"][sizes="32x32"]')
+            || document.querySelector('link[rel="shortcut icon"]')
+            || document.querySelector('link[rel="icon"]');
+  if (linkEl) {
+    originalFavicon = linkEl.href;
+  }
+
+  // Build notification favicon with (1) badge using canvas
+  function buildNotificationFavicon(callback) {
+    var img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = function () {
+      var canvas = document.createElement('canvas');
+      canvas.width = 32;
+      canvas.height = 32;
+      var ctx = canvas.getContext('2d');
+
+      // Draw original favicon
+      ctx.drawImage(img, 0, 0, 32, 32);
+
+      // Draw red circle badge
+      ctx.beginPath();
+      ctx.arc(24, 8, 8, 0, 2 * Math.PI);
+      ctx.fillStyle = '#FF3B30';
+      ctx.fill();
+
+      // Draw "1" text
+      ctx.fillStyle = '#fff';
+      ctx.font = 'bold 11px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('1', 24, 9);
+
+      callback(canvas.toDataURL('image/png'));
+    };
+    img.onerror = function () { callback(null); };
+    img.src = originalFavicon || '/favicon.png';
+  }
+
+  function setFavicon(href) {
+    var links = document.querySelectorAll('link[rel="icon"], link[rel="shortcut icon"]');
+    links.forEach(function (l) {
+      l.href = href;
+    });
+  }
+
+  function startFlashing() {
+    if (isFlashing) return;
+    isFlashing = true;
+
+    buildNotificationFavicon(function (dataUrl) {
+      notificationFavicon = dataUrl;
+      var showNotification = true;
+
+      flashInterval = setInterval(function () {
+        if (showNotification) {
+          document.title = '(1) New Message';
+          if (notificationFavicon) setFavicon(notificationFavicon);
+        } else {
+          document.title = originalTitle;
+          if (originalFavicon) setFavicon(originalFavicon);
+        }
+        showNotification = !showNotification;
+      }, 1500);
+    });
+  }
+
+  function stopFlashing() {
+    if (!isFlashing) return;
+    isFlashing = false;
+    clearInterval(flashInterval);
+    document.title = originalTitle;
+    if (originalFavicon) setFavicon(originalFavicon);
+  }
+
+  // Start flashing when user leaves tab, stop when they return
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) {
+      // Small delay before starting — only flash if they're actually away
+      setTimeout(function () {
+        if (document.hidden) startFlashing();
+      }, 3000);
+    } else {
+      stopFlashing();
+    }
+  });
+})();

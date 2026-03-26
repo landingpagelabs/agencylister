@@ -896,5 +896,42 @@
     "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-gigabrands-logo.png",
     "long_description": "GigaBrands is an Amazon agency that uses proprietary software and data feedback loops to rank products and scale revenue. Founded by Hunter Harris, they have generated over $181M in Amazon sales across 50-plus brands. Results include scaling BlueTex Insulation from $30K to $2.2M monthly revenue in 6 months. Featured in Forbes and Business Insider.",
     "order": 54
+  },
+  {
+    "name": "EnrichBox",
+    "slug": "enrichbox",
+    "url": "https://www.enrichbox.com/",
+    "domain": "enrichbox.com",
+    "description": "B2B outbound solution combining verified data enrichment with personalized email campaigns to fill your sales pipeline.",
+    "category": "Cold Outbound",
+    "industries": [
+      "B2B",
+      "SaaS",
+      "Recruiting",
+      "Agencies"
+    ],
+    "country": "Germany",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-enrichbox-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-enrichbox-logo.png",
+    "long_description": "EnrichBox is a B2B outbound solution based in Germany that helps sales teams generate consistent pipeline through automated cold outreach. They combine verified contact data enrichment across 24+ data providers with personalized email campaigns and bulletproof deliverability infrastructure. Trusted by 120+ agencies, sales teams, and founders, EnrichBox offers a pay-per-lead model at \u20ac0.50 per fully enriched contact with no subscriptions or setup fees.",
+    "order": 55
+  },
+  {
+    "name": "Fuel Results",
+    "slug": "fuel-results",
+    "url": "https://fuelresults.com/",
+    "domain": "fuelresults.com",
+    "description": "Performance-based digital marketing agency guaranteeing consistent, high-quality leads or they work for free.",
+    "category": "Paid Ads",
+    "industries": [
+      "Lead Gen",
+      "Local Business",
+      "Service Industries"
+    ],
+    "country": "United States",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-fuel-results-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-fuel-results-logo.png",
+    "long_description": "Fuel Results is a performance-based digital marketing agency based in Mississippi that guarantees consistent, high-quality leads or they work for free. With 98% client retention since 2022 and over $57M in revenue generated across 100+ service industries, they are a Meta Business Partner and Google Partner. They accept only 4 new clients per month.",
+    "order": 56
   }
 ]
