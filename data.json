@@ -688,5 +688,159 @@
     "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-class-a-media-hero.png",
     "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-class-a-media-logo.png",
     "order": 44
+  },
+  {
+    "name": "Agexa Intelligence",
+    "slug": "agexa",
+    "url": "https://agexa.com/",
+    "domain": "agexa.com",
+    "description": "Scales info product businesses to 8 figures with playbooks from 11 $100M+ brands.",
+    "category": "Full Service",
+    "industries": [
+      "Info"
+    ],
+    "country": "United States",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-agexa-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-agexa-logo.png",
+    "order": 45
+  },
+  {
+    "name": "Selling to Closing",
+    "slug": "selling-to-closing",
+    "url": "https://www.selling2closing.com/",
+    "domain": "selling2closing.com",
+    "description": "Performance-based outsourced sales teams that close deals for info product companies.",
+    "category": "Outsourced Sales",
+    "industries": [
+      "Info"
+    ],
+    "country": "United States",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-selling-to-closing-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-selling-to-closing-logo.png",
+    "order": 46
+  },
+  {
+    "name": "Amplify",
+    "slug": "amplify",
+    "url": "https://www.amplifyhq.com/",
+    "domain": "amplifyhq.com",
+    "description": "Builds and launches digital courses, coaching programs, and funnels for entrepreneurs.",
+    "category": "Full Service",
+    "industries": [
+      "Info"
+    ],
+    "country": "United States",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-amplify-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-amplify-logo.png",
+    "order": 47
+  },
+  {
+    "name": "Market Lead",
+    "slug": "market-lead",
+    "url": "https://www.marketlead.com.au/",
+    "domain": "marketlead.com.au",
+    "description": "Google and Meta ads agency managing $115M+ in ad spend across 600+ businesses.",
+    "category": "Paid Ads",
+    "industries": [
+      "Lead Gen",
+      "eCom"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-market-lead-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-market-lead-logo.png",
+    "order": 48
+  },
+  {
+    "name": "BAD Marketing",
+    "slug": "bad-marketing",
+    "url": "https://www.badmarketing.com/",
+    "domain": "badmarketing.com",
+    "description": "150+ person growth agency managing $250M/yr in ad spend for eCom and info brands.",
+    "category": "Paid Ads",
+    "industries": [
+      "eCom",
+      "Info"
+    ],
+    "country": "United States",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-bad-marketing-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-bad-marketing-logo.png",
+    "order": 49
+  },
+  {
+    "name": "Genflow",
+    "slug": "genflow",
+    "url": "https://genflow.com/",
+    "domain": "genflow.com",
+    "description": "Helps creators monetize audiences by launching brands, digital products, and ecommerce at scale.",
+    "category": "Full Service",
+    "industries": [
+      "Info",
+      "eCom"
+    ],
+    "country": "United Kingdom",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-genflow-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-genflow-logo.png",
+    "order": 50
+  },
+  {
+    "name": "Mint Ave",
+    "slug": "mint-ave",
+    "url": "https://www.mintave.ca/",
+    "domain": "mintave.ca",
+    "description": "Email, SMS, and cold email marketing agency driving retention and revenue for eCom brands.",
+    "category": "Klaviyo",
+    "industries": [
+      "eCom",
+      "Lead Gen"
+    ],
+    "country": "Canada",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-mint-ave-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-mint-ave-logo.png",
+    "order": 51
+  },
+  {
+    "name": "Trivium",
+    "slug": "trivium",
+    "url": "https://triviumco.com/",
+    "domain": "triviumco.com",
+    "description": "Full-service Amazon growth agency specializing in PPC, DSP, creative, and account management.",
+    "category": "Amazon",
+    "industries": [
+      "eCom"
+    ],
+    "country": "United States",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-trivium-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-trivium-logo.png",
+    "order": 52
+  },
+  {
+    "name": "Hey Digital",
+    "slug": "hey-digital",
+    "url": "https://www.heydigital.co/",
+    "domain": "heydigital.co",
+    "description": "B2B SaaS paid marketing agency driving pipeline, demos, and sign-ups.",
+    "category": "Paid Ads",
+    "industries": [
+      "SaaS"
+    ],
+    "country": "Estonia",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-hey-digital-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-hey-digital-logo.png",
+    "order": 53
+  },
+  {
+    "name": "GigaBrands",
+    "slug": "gigabrands",
+    "url": "https://gigabrands.ai/",
+    "domain": "gigabrands.ai",
+    "description": "Full-service Amazon agency scaling brands with PPC, SEO, and listing optimization.",
+    "category": "Amazon",
+    "industries": [
+      "eCom"
+    ],
+    "country": "United States",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-gigabrands-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-gigabrands-logo.png",
+    "order": 54
   }
 ]
