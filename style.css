@@ -40,21 +40,35 @@
 
 @font-face {
   font-family: 'TWK Lausanne';
-  src: local('TWK Lausanne');
+  src: url('https://lpl-client-research.b-cdn.net/agencylister/fonts/TWKLausanne-300.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'TWK Lausanne';
-  src: local('TWK Lausanne');
+  src: url('https://lpl-client-research.b-cdn.net/agencylister/fonts/TWKLausanne-400.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'TWK Lausanne';
-  src: local('TWK Lausanne');
+  src: url('https://lpl-client-research.b-cdn.net/agencylister/fonts/TWKLausanne-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TWK Lausanne';
+  src: url('https://lpl-client-research.b-cdn.net/agencylister/fonts/TWKLausanne-550.woff2') format('woff2');
+  font-weight: 550;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TWK Lausanne';
+  src: url('https://lpl-client-research.b-cdn.net/agencylister/fonts/TWKLausanne-600.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -603,6 +617,15 @@ button { font-family: inherit; }
 
 .hero_content-item:hover {
   box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+.hero_content-item-link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  flex: 1;
+  cursor: pointer;
 }
 
 .hero_content-item.hidden { display: none; }

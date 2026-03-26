@@ -19,6 +19,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Agencies in Germany — AgencyLister">
   <meta name="twitter:description" content="Browse 1 vetted agencies in Germany. Filter by category and industry.">
+  <meta name="twitter:image" content="https://www.agencylister.com/og-default.png">
 
   <!-- JSON-LD -->
   <script type="application/ld+json">
@@ -62,40 +63,77 @@
 </head>
 <body>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="header__inner">
-      <a href="/" class="header__logo">AgencyLister</a>
-      <nav class="header__nav">
-        <a href="/#browse" class="header__link">Browse</a>
-        <a href="/#submit" class="header__link header__link--cta">List Your Agency</a>
+  <!-- Gradient bar (mobile only) -->
+  <div class="gradient-bar"></div>
+
+  <!-- Page layout -->
+  <div class="hero_wrapper">
+
+    <!-- LEFT: Sidebar -->
+    <aside class="hero_aside" id="sidebar">
+      <nav class="hero_aside-inner">
+      <div class="hero_aside-logo">
+        <a href="/"><img src="https://lpl-client-research.b-cdn.net/agencylister/logo-agencylister.avif" alt="AgencyLister"></a>
+      </div>
+
+      <div class="hero_aside-categories">
+        <div class="hero_aside-categories-label">
+          <span>Categories</span>
+        </div>
+        <a class="hero_aside-category-item" href="/category/ai-automation/"><img class="hero_aside-category-icon" src="https://lpl-client-research.b-cdn.net/agencylister/icon-ai-automation.png" alt="" loading="lazy"><span class="hero_aside-category-label">AI &amp; Automation</span></a>
+<a class="hero_aside-category-item" href="/category/cro/"><img class="hero_aside-category-icon" src="https://lpl-client-research.b-cdn.net/agencylister/icon-cro.png" alt="" loading="lazy"><span class="hero_aside-category-label">CRO</span></a>
+<a class="hero_aside-category-item" href="/category/cold-outbound/"><img class="hero_aside-category-icon" src="https://lpl-client-research.b-cdn.net/agencylister/icon-cold-outbound.png" alt="" loading="lazy"><span class="hero_aside-category-label">Cold Outbound</span></a>
+<a class="hero_aside-category-item" href="/category/klaviyo/"><img class="hero_aside-category-icon" src="https://lpl-client-research.b-cdn.net/agencylister/icon-klaviyo.png" alt="" loading="lazy"><span class="hero_aside-category-label">Klaviyo</span></a>
+<a class="hero_aside-category-item" href="/category/full-service/"><img class="hero_aside-category-icon" src="https://lpl-client-research.b-cdn.net/agencylister/icon-full-service.png" alt="" loading="lazy"><span class="hero_aside-category-label">Full Service</span></a>
+<a class="hero_aside-category-item" href="/category/ghostwriting/"><img class="hero_aside-category-icon" src="https://lpl-client-research.b-cdn.net/agencylister/icon-ghostwriting.png" alt="" loading="lazy"><span class="hero_aside-category-label">Ghostwriting</span></a>
+<a class="hero_aside-category-item" href="/category/outsourced-sales/"><img class="hero_aside-category-icon" src="https://lpl-client-research.b-cdn.net/agencylister/icon-outsourced-sales.png" alt="" loading="lazy"><span class="hero_aside-category-label">Outsourced Sales</span></a>
+<a class="hero_aside-category-item" href="/category/paid-ads/"><img class="hero_aside-category-icon" src="https://lpl-client-research.b-cdn.net/agencylister/icon-paid-ads.png" alt="" loading="lazy"><span class="hero_aside-category-label">Paid Ads</span></a>
+<a class="hero_aside-category-item" href="/category/pr/"><img class="hero_aside-category-icon" src="https://lpl-client-research.b-cdn.net/agencylister/icon-pr.png" alt="" loading="lazy"><span class="hero_aside-category-label">PR</span></a>
+<a class="hero_aside-category-item" href="/category/revops/"><img class="hero_aside-category-icon" src="https://lpl-client-research.b-cdn.net/agencylister/icon-revops.png" alt="" loading="lazy"><span class="hero_aside-category-label">RevOps</span></a>
+<a class="hero_aside-category-item" href="/category/seo/"><img class="hero_aside-category-icon" src="https://lpl-client-research.b-cdn.net/agencylister/icon-seo.png" alt="" loading="lazy"><span class="hero_aside-category-label">SEO</span></a>
+<a class="hero_aside-category-item" href="/category/amazon/"><img class="hero_aside-category-icon" src="https://lpl-client-research.b-cdn.net/agencylister/icon-amazon.svg" alt="" loading="lazy"><span class="hero_aside-category-label">Amazon</span></a>
+
+      </div>
+
+      <div class="hero_aside-footer">
+        <div class="hero_aside-footer-logo">
+          <a href="/"><img src="https://lpl-client-research.b-cdn.net/agencylister/logo-agencylister-footer.avif" alt="AgencyLister"></a>
+        </div>
+        <div class="hero_aside-footer-links">
+          <a href="https://www.landingpagelabs.co/privacy-policy">Privacy Policy.</a>
+          <a href="https://www.landingpagelabs.co/privacy-policy">Terms</a>
+        </div>
+        <div class="hero_aside-footer-copyright">&copy; 2026 agencylister.com</div>
+        <a href="/list-your-agency" class="hero_aside-footer-cta">List your agency</a>
+      </div>
       </nav>
-    </div>
-  </header>
+    </aside>
 
-  <!-- Breadcrumb -->
-  <nav class="breadcrumb" aria-label="Breadcrumb">
-    <div class="breadcrumb__inner">
-      <a href="/">Home</a>
-      <span class="breadcrumb__sep">/</span>
-      <span>Germany</span>
-    </div>
-  </nav>
+    <!-- RIGHT: Content -->
+    <div class="hero_right">
+      <div class="hero_content">
 
-  <!-- Country hero -->
-  <section class="category-hero">
-    <div class="category-hero__inner">
-      <h1 class="category-hero__title">Agencies in Germany</h1>
-      <p class="category-hero__subtitle">Browse 1 vetted agencies based in Germany.</p>
-    </div>
-  </section>
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <div class="breadcrumb__inner">
+            <a href="/">Home</a>
+            <span class="breadcrumb__sep">/</span>
+            <span>Germany</span>
+          </div>
+        </nav>
 
-  <!-- Grid -->
-  <main class="main main--no-sidebar">
-    <div class="main__inner main__inner--centered">
-      <div class="content">
+        <!-- Country hero -->
+        <div class="category-hero">
+          <div class="category-hero__inner">
+            <h1 class="category-hero__title">Agencies in Germany</h1>
+            <p class="category-hero__subtitle">Browse 1 vetted agencies based in Germany.</p>
+          </div>
+        </div>
+
+        <!-- Grid -->
         <div class="grid">
           <article class="hero_content-item" data-category="CRO" data-country="Germany" data-industries="eCom" data-name="accelerated">
+  <a href="/agency/accelerated/" class="hero_content-item-link">
   <div class="hero_content-item-image">
     <img class="hero_content-item-img" src="https://lpl-client-research.b-cdn.net/agencylister/agency-accelerated-hero.png" alt="Accelerated screenshot" loading="lazy">
   </div>
@@ -122,28 +160,21 @@
       <div class="body-small black-2">eCom</div>
     </div>
   </div>
+  </a>
 </article>
         </div>
-      </div>
-    </div>
-  </main>
 
-  <!-- Back to browse -->
-  <section class="back-section">
-    <div class="back-section__inner">
-      <a href="/" class="btn btn--secondary">Browse all agencies</a>
-    </div>
-  </section>
+        <!-- Back to browse -->
+        <div class="back-section">
+          <div class="back-section__inner">
+            <a href="/" class="btn btn--secondary">Browse all agencies</a>
+          </div>
+        </div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer__inner">
-      <p>&copy; 2026 AgencyLister. All rights reserved.</p>
-      <nav class="footer__nav">
-        <a href="/sitemap.xml">Sitemap</a>
-      </nav>
-    </div>
-  </footer>
+      </div><!-- .hero_content -->
+    </div><!-- .hero_right -->
+
+  </div><!-- .hero_wrapper -->
 
 </body>
 </html>
