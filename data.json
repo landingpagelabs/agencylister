@@ -905,10 +905,8 @@
     "description": "B2B outbound solution combining verified data enrichment with personalized email campaigns to fill your sales pipeline.",
     "category": "Cold Outbound",
     "industries": [
-      "B2B",
       "SaaS",
-      "Recruiting",
-      "Agencies"
+      "Service"
     ],
     "country": "Germany",
     "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-enrichbox-hero.png",
@@ -924,9 +922,8 @@
     "description": "Performance-based digital marketing agency guaranteeing consistent, high-quality leads or they work for free.",
     "category": "Paid Ads",
     "industries": [
-      "Lead Gen",
-      "Local Business",
-      "Service Industries"
+      "Service",
+      "Bricks & Mortar"
     ],
     "country": "United States",
     "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-fuel-results-hero.png",

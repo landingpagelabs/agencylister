@@ -1,0 +1,78 @@
+# AgencyLister
+
+> A hand-vetted directory of the best marketing agencies in the world. Browse by category, industry, or country to find the right agency partner.
+
+AgencyLister is a free marketing agency directory owned and operated by Landing Page Labs, based in Melbourne, Australia. The directory features 56 vetted marketing agencies across 12 categories and 8 countries.
+
+## Categories
+
+- AI & Automation
+- Amazon
+- Cold Outbound
+- CRO
+- Full Service
+- Ghostwriting
+- Klaviyo
+- Outsourced Sales
+- Paid Ads
+- PR
+- RevOps
+- SEO
+
+## Industries Served
+
+- eCom
+- SaaS
+- Info
+- Service
+- Bricks & Mortar
+- Lead Gen
+
+## Countries
+
+- Australia
+- Canada
+- Denmark
+- Estonia
+- Germany
+- Spain
+- United Kingdom
+- United States
+
+## Key Pages
+
+- Homepage: https://www.agencylister.com/
+- List Your Agency: https://www.agencylister.com/list-your-agency/
+- Privacy Policy: https://www.agencylister.com/privacy-policy/
+- Terms of Use: https://www.agencylister.com/terms/
+
+## Category Pages
+
+- AI & Automation: https://www.agencylister.com/category/ai-automation/
+- Amazon: https://www.agencylister.com/category/amazon/
+- Cold Outbound: https://www.agencylister.com/category/cold-outbound/
+- CRO: https://www.agencylister.com/category/cro/
+- Full Service: https://www.agencylister.com/category/full-service/
+- Ghostwriting: https://www.agencylister.com/category/ghostwriting/
+- Klaviyo: https://www.agencylister.com/category/klaviyo/
+- Outsourced Sales: https://www.agencylister.com/category/outsourced-sales/
+- Paid Ads: https://www.agencylister.com/category/paid-ads/
+- PR: https://www.agencylister.com/category/pr/
+- RevOps: https://www.agencylister.com/category/revops/
+- SEO: https://www.agencylister.com/category/seo/
+
+## Country Pages
+
+- Australia: https://www.agencylister.com/country/australia/
+- Canada: https://www.agencylister.com/country/canada/
+- Denmark: https://www.agencylister.com/country/denmark/
+- Estonia: https://www.agencylister.com/country/estonia/
+- Germany: https://www.agencylister.com/country/germany/
+- Spain: https://www.agencylister.com/country/spain/
+- United Kingdom: https://www.agencylister.com/country/united-kingdom/
+- United States: https://www.agencylister.com/country/united-states/
+
+## Contact
+
+- Email: hey@landingpagelabs.co
+- Website: https://www.landingpagelabs.co
