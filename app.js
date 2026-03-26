@@ -209,6 +209,11 @@
       loadMoreWrap.style.display = visibleCount < totalVisible ? 'block' : 'none';
     }
 
+    if (loadMoreBtn) {
+      var remaining = totalVisible - visibleCount;
+      loadMoreBtn.textContent = remaining > 0 ? 'Load more (' + remaining + ' remaining)' : 'Load more';
+    }
+
     if (noResults) {
       noResults.style.display = totalVisible === 0 ? 'block' : 'none';
     }
@@ -271,5 +276,13 @@
   });
 
   updateUI();
+
+  // Back to top button
+  var backToTop = document.getElementById('backToTop');
+  if (backToTop) {
+    window.addEventListener('scroll', function () {
+      backToTop.style.display = window.scrollY > 800 ? 'block' : 'none';
+    });
+  }
 
 })();
