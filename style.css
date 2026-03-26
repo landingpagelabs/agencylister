@@ -650,14 +650,12 @@ button { font-family: inherit; }
 
 .hero_content-item-img {
   width: 100%;
-  height: auto;
-  min-height: 140px;
+  height: 200px;
   display: block;
   border-radius: 8px;
   border: 1px solid #f4f4f4;
   object-fit: cover;
   background: var(--gray-100);
-  aspect-ratio: 302/200;
   transition: transform 0.3s ease;
 }
 
