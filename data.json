@@ -488,5 +488,205 @@
     "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-sculpted-hero.png",
     "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-sculpted-logo.png",
     "order": 31
+  },
+  {
+    "name": "Adcrate",
+    "slug": "adcrate",
+    "url": "https://www.adcrate.com/",
+    "domain": "adcrate.com",
+    "description": "Full-service performance creative agency producing ads backed by $35M+ in media spend across 50+ brands.",
+    "category": "Paid Ads",
+    "industries": [
+      "eCom"
+    ],
+    "country": "United Kingdom",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-adcrate-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-adcrate-logo.png",
+    "order": 32
+  },
+  {
+    "name": "Pilothouse",
+    "slug": "pilothouse",
+    "url": "https://www.pilothouse.co/",
+    "domain": "pilothouse.co",
+    "description": "Performance marketing agency for DTC brands across Meta, Google, TikTok, Amazon, email, and CRO.",
+    "category": "Full Service",
+    "industries": [
+      "eCom"
+    ],
+    "country": "Canada",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-pilothouse-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-pilothouse-logo.png",
+    "order": 33
+  },
+  {
+    "name": "Persuasion Experience",
+    "slug": "persuasion-experience",
+    "url": "https://www.persuasionexperience.com/",
+    "domain": "persuasionexperience.com",
+    "description": "Performance agency that doubles qualified leads and booked calls from paid ads for 7-8 figure brands.",
+    "category": "Paid Ads",
+    "industries": [
+      "Lead Gen",
+      "SaaS",
+      "eCom"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-persuasion-experience-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-persuasion-experience-logo.png",
+    "order": 34
+  },
+  {
+    "name": "Reform Digital",
+    "slug": "reform-digital",
+    "url": "https://reformdigital.com.au/",
+    "domain": "reformdigital.com.au",
+    "description": "Award-winning full-service digital agency covering SEO, PPC, CRO, email, and social ads.",
+    "category": "Full Service",
+    "industries": [
+      "eCom",
+      "Lead Gen"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-reform-digital-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-reform-digital-logo.png",
+    "order": 35
+  },
+  {
+    "name": "Optimising",
+    "slug": "optimising",
+    "url": "https://www.optimising.com.au/",
+    "domain": "optimising.com.au",
+    "description": "B Corp certified SEO agency focused exclusively on organic search and AI visibility.",
+    "category": "SEO",
+    "industries": [
+      "eCom",
+      "Lead Gen"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-optimising-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-optimising-logo.png",
+    "order": 36
+  },
+  {
+    "name": "Siba Consulting",
+    "slug": "siba-consulting",
+    "url": "https://www.sibaconsulting.com/",
+    "domain": "sibaconsulting.com",
+    "description": "Direct response creative and media buying agency scaling cold traffic for DTC eCom brands.",
+    "category": "Paid Ads",
+    "industries": [
+      "eCom"
+    ],
+    "country": "United States",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-siba-consulting-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-siba-consulting-logo.png",
+    "order": 37
+  },
+  {
+    "name": "Soar With Us",
+    "slug": "soar-with-us",
+    "url": "https://www.soarwithus.co/",
+    "domain": "soarwithus.co",
+    "description": "DTC creative growth partner combining performance ads, creative strategy, and media buying.",
+    "category": "Paid Ads",
+    "industries": [
+      "eCom"
+    ],
+    "country": "United Kingdom",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-soar-with-us-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-soar-with-us-logo.png",
+    "order": 38
+  },
+  {
+    "name": "Echelonn",
+    "slug": "echelonn",
+    "url": "https://www.echelonn.io/",
+    "domain": "echelonn.io",
+    "description": "Google and YouTube Ads agency exclusively for eCommerce brands, with ex-Google operators on staff.",
+    "category": "Paid Ads",
+    "industries": [
+      "eCom"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-echelonn-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-echelonn-logo.png",
+    "order": 39
+  },
+  {
+    "name": "Sophron Solutions",
+    "slug": "sophron-solutions",
+    "url": "https://sophronsolutions.com/",
+    "domain": "sophronsolutions.com",
+    "description": "High-ticket paid ads firm scaling info and service businesses with funnels and lead nurturing.",
+    "category": "Paid Ads",
+    "industries": [
+      "Lead Gen",
+      "Info"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-sophron-solutions-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-sophron-solutions-logo.png",
+    "order": 40
+  },
+  {
+    "name": "Right Hook Digital",
+    "slug": "right-hook-digital",
+    "url": "https://righthookdigital.com/",
+    "domain": "righthookdigital.com",
+    "description": "Growth marketing agency for Shopify DTC brands specialising in Facebook advertising.",
+    "category": "Paid Ads",
+    "industries": [
+      "eCom"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-right-hook-digital-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-right-hook-digital-logo.png",
+    "order": 41
+  },
+  {
+    "name": "Accelerated",
+    "slug": "accelerated",
+    "url": "https://www.acceleratedagency.com/",
+    "domain": "acceleratedagency.com",
+    "description": "CRO and A/B testing agency for 8-9 figure eCom brands with $1.4Bn+ in managed revenue.",
+    "category": "CRO",
+    "industries": [
+      "eCom"
+    ],
+    "country": "Germany",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-accelerated-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-accelerated-logo.png",
+    "order": 42
+  },
+  {
+    "name": "PurpleFire",
+    "slug": "purplefire",
+    "url": "https://purplefire.io/",
+    "domain": "purplefire.io",
+    "description": "Full-stack eCom growth agency powered by 5,000+ split tests across CRO, paid ads, and email.",
+    "category": "CRO",
+    "industries": [
+      "eCom"
+    ],
+    "country": "Denmark",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-purplefire-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-purplefire-logo.png",
+    "order": 43
+  },
+  {
+    "name": "Class A Media",
+    "slug": "class-a-media",
+    "url": "https://www.classamedia.com/",
+    "domain": "classamedia.com",
+    "description": "Klaviyo email and SMS flow specialists, $150M+ in flow revenue generated across 200+ brands.",
+    "category": "Klaviyo",
+    "industries": [
+      "eCom"
+    ],
+    "country": "United States",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-class-a-media-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-class-a-media-logo.png",
+    "order": 44
   }
 ]
