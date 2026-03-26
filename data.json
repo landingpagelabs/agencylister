@@ -1,0 +1,367 @@
+[
+  {
+    "name": "Landing Page Labs",
+    "slug": "landing-page-labs",
+    "url": "https://www.landingpagelabs.co/",
+    "domain": "landingpagelabs.co",
+    "description": "Conversion-optimized landing pages that turn ad clicks into sales.",
+    "category": "CRO",
+    "industries": [
+      "Lead Gen",
+      "SaaS",
+      "Info"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/697447cc78e87571b9e9eecd_Rectangle%2034625385.png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69720cc2e0af95e625151f03_image%203162.png",
+    "order": 1
+  },
+  {
+    "name": "StackOptimise",
+    "slug": "stackoptimise",
+    "url": "https://www.stackoptimise.com/",
+    "domain": "stackoptimise.com",
+    "description": "Signal-based outbound agency turning buying signals into meeting-ready leads via email and LinkedIn.",
+    "category": "Cold Outbound",
+    "industries": [
+      "Lead Gen",
+      "SaaS"
+    ],
+    "country": "United Kingdom",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/6972133f9a0d0e6202220555_Rectangle%2034625385%20(2).png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/6972134b41cdb1641c0e8b26_image%203162%20(1).png",
+    "order": 2
+  },
+  {
+    "name": "Exposure",
+    "slug": "exposure",
+    "url": "https://www.exposure.com.au/",
+    "domain": "exposure.com.au",
+    "description": "Performance creative agency with 24-48 hour turnaround backed by $150M+ in ad spend data.",
+    "category": "Paid Ads",
+    "industries": [
+      "eCom"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/697213b8c6ee2292e451209a_Rectangle%2034625385%20(3).png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/697213b6ff45cf72a8351593_image%203162%20(2).png",
+    "order": 3
+  },
+  {
+    "name": "C17 Lab",
+    "slug": "c17-lab",
+    "url": "https://www.c17.ai",
+    "domain": "c17.ai",
+    "description": "Revenue engineering firm and Clay Enterprise Partner delivering 250+ leads per month.",
+    "category": "Cold Outbound",
+    "industries": [
+      "Lead Gen",
+      "SaaS"
+    ],
+    "country": "United States",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/697213d6f1f88e40796a486f_Rectangle%2034625385%20(4).png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743d0cc4f6f1932bba4d0e_C17.png",
+    "order": 4
+  },
+  {
+    "name": "B2B Boosted",
+    "slug": "b2b-boosted",
+    "url": "https://www.b2b-boosted.com/",
+    "domain": "b2b-boosted.com",
+    "description": "Sales automation agency building bespoke outbound systems with Clay.",
+    "category": "RevOps",
+    "industries": [
+      "Lead Gen",
+      "SaaS"
+    ],
+    "country": "United Kingdom",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/6972142a453889f96f43cc42_Rectangle%2034625385%20(5).png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69721433efa43425e2f4b848_image%203162%20(4).png",
+    "order": 5
+  },
+  {
+    "name": "Defiant Digital",
+    "slug": "defiant-digital",
+    "url": "https://defiantdigital.com.au/",
+    "domain": "defiantdigital.com.au",
+    "description": "Creative performance agency for eCommerce brands doing $5M-1BN+",
+    "category": "Paid Ads",
+    "industries": [
+      "eCom"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/6972148ac1b0b6632a92253f_Rectangle%2034625385%20(6).png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/6972148ca5039e6bf2efb65c_image%203162%20(5).png",
+    "order": 6
+  },
+  {
+    "name": "Avorius Partners",
+    "slug": "avorius-partners",
+    "url": "https://www.avoriuspartners.com/",
+    "domain": "avoriuspartners.com",
+    "description": "B2B outbound for Australia and NZ. Guarantees 2x ROI.",
+    "category": "Cold Outbound",
+    "industries": [
+      "Lead Gen",
+      "SaaS",
+      "eCom"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/697215614bb59d8410550f3c_Rectangle%2034625385%20(7).png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/6972156a07694ee1de9fad68_image%203162%20(6).png",
+    "order": 7
+  },
+  {
+    "name": "Galileo 14",
+    "slug": "galileo-14",
+    "url": "https://www.galileo14.com/",
+    "domain": "galileo14.com",
+    "description": "AI and automation agency building N8N, Zapier, and Make workflows.",
+    "category": "AI & Automation",
+    "industries": [
+      "Lead Gen",
+      "SaaS",
+      "eCom",
+      "Info"
+    ],
+    "country": "Spain",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/6972198071120609c549cc06_Rectangle%2034625385%20(8).png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/697219ab2b1f5d8ea929a632_image%203162%20(7).png",
+    "order": 8
+  },
+  {
+    "name": "SwayyEm",
+    "slug": "swayyem",
+    "url": "https://www.swayyem.com",
+    "domain": "swayyem.com",
+    "description": "Digital PR agency guaranteeing placements in Forbes, Wired, and USA Today. First feature free.",
+    "category": "PR",
+    "industries": [
+      "Lead Gen",
+      "SaaS",
+      "eCom"
+    ],
+    "country": "United States",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/697219e17bc0f31141c0f635_Rectangle%2034625385%20(9).png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/697219df61db6f7a045912e3_image%203162%20(8).png",
+    "order": 9
+  },
+  {
+    "name": "ThePod.fm",
+    "slug": "thepodfm",
+    "url": "https://thepod.fm/",
+    "domain": "thepod.fm",
+    "description": "B2B podcast agency turning podcast conversations into booked meetings.",
+    "category": "Cold Outbound",
+    "industries": [
+      "Lead Gen",
+      "SaaS",
+      "eCom",
+      "Info"
+    ],
+    "country": "United Kingdom",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69721a1e83d99e81d35312c1_Rectangle%2034625385%20(10).png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69721a43f03f394334248049_image%203162%20(9).png",
+    "order": 10
+  },
+  {
+    "name": "The Magic Of Marketing",
+    "slug": "the-magic-of-marketing",
+    "url": "https://themagicofmarketing.com.au/",
+    "domain": "themagicofmarketing.com.au",
+    "description": "Meta Ads lead generation for buyer's agents. Founder-led with zero upfront costs.",
+    "category": "Paid Ads",
+    "industries": [
+      "Lead Gen"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69721a57c9c2aaf43f1228ac_Rectangle%2034625385%20(11).png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69721a649b34daa6db05dca4_image%203162%20(10).png",
+    "order": 11
+  },
+  {
+    "name": "Understory Agency",
+    "slug": "understory-agency",
+    "url": "https://www.understoryagency.com/",
+    "domain": "understoryagency.com",
+    "description": "B2B SaaS growth partner across LinkedIn Ads, Google Ads, Meta, cold email, and design",
+    "category": "Full Service",
+    "industries": [
+      "Lead Gen",
+      "SaaS"
+    ],
+    "country": "United States",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/697222a371d4ff37912b4f48_Rectangle%2034625385%20(12).png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/697222a5d66cbd73b00c579f_image%203162%20(11).png",
+    "order": 12
+  },
+  {
+    "name": "workflows.io",
+    "slug": "workflowsio",
+    "url": "https://workflows.io/",
+    "domain": "workflows.io",
+    "description": "TM systems agency combining AI workflows with human expertise across Content, Outbound, and RevOps.",
+    "category": "AI & Automation",
+    "industries": [
+      "Lead Gen",
+      "SaaS"
+    ],
+    "country": "United States",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/697223db2906f86c247ff332_Rectangle%2034625385%20(13).avif",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/697223d01ad207f3801c62f7_image%203162%20(12).avif",
+    "order": 13
+  },
+  {
+    "name": "ColdIQ",
+    "slug": "coldiq",
+    "url": "https://coldiq.com/",
+    "domain": "coldiq.com",
+    "description": "AI-powered outbound systems that have helped 300+ companies generate millions in pipeline",
+    "category": "Full Service",
+    "industries": [
+      "Lead Gen",
+      "SaaS"
+    ],
+    "country": "United States",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/6972245bc4918d243510620e_Rectangle%2034625385%20(14).png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/6972245c54d1225b4a237ef9_image%203162%20(13).png",
+    "order": 14
+  },
+  {
+    "name": "We Scale Creators",
+    "slug": "we-scale-creators",
+    "url": "https://www.wescalecreators.com/",
+    "domain": "wescalecreators.com",
+    "description": "Launches 7-figure campaigns for creators with zero upfront costs. Performance-based, investing their own capital.",
+    "category": "Full Service",
+    "industries": [
+      "Info"
+    ],
+    "country": "United States",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/697224ecf71f04b85e8e8c6b_Rectangle%2034625385%20(15).png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/697224efd3db4905e49b2738_image%203162%20(14).png",
+    "order": 15
+  },
+  {
+    "name": "Copy And Clients",
+    "slug": "copy-and-clients",
+    "url": "https://copyandclients.com/",
+    "domain": "copyandclients.com",
+    "description": "Marketing agency helping coaches and consultants scale through funnels and copywriting.",
+    "category": "CRO",
+    "industries": [
+      "Info"
+    ],
+    "country": "United States",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743aa11ee99d2dc6713612_Rectangle%2034625385.avif",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743a9ad50cc16bbbe598e2_image%203162.avif",
+    "order": 16
+  },
+  {
+    "name": "Webprofits",
+    "slug": "webprofits",
+    "url": "https://www.webprofits.com.au/",
+    "domain": "webprofits.com.au",
+    "description": "The Go-To Agency for DTC + eCommerce Marketing.",
+    "category": "Full Service",
+    "industries": [
+      "eCom",
+      "Lead Gen"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743b14f2769cdd03ce8644_Rectangle%2034625385-1.avif",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743b184ac837916a9259bc_image%203162-1.avif",
+    "order": 17
+  },
+  {
+    "name": "Adstr",
+    "slug": "adstr",
+    "url": "https://www.adstr.co/",
+    "domain": "adstr.co",
+    "description": "Performance ad creative agency lowering CPA through UGC, street interviews, and podcast-style ads. All in-house.",
+    "category": "Paid Ads",
+    "industries": [
+      "eCom"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743b5ab0042480198fa1db_Rectangle%2034625385-2.avif",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743b54c85a6cc3b9e4dd38_image%203162-2.avif",
+    "order": 18
+  },
+  {
+    "name": "Profit Mill",
+    "slug": "profit-mill",
+    "url": "https://www.profitmill.io/",
+    "domain": "profitmill.io",
+    "description": "Ex-Googler helping B2B and B2C companies profitably scale paid ads for lead generation.",
+    "category": "Paid Ads",
+    "industries": [
+      "Lead Gen",
+      "SaaS"
+    ],
+    "country": "Canada",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743bc04200b5d1824b2dee_Rectangle%2034625385-3.avif",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743bc2509326e9c3749159_image%203162-3.avif",
+    "order": 19
+  },
+  {
+    "name": "Mktg Email",
+    "slug": "mktg-email",
+    "url": "https://www.mktgemails.com/",
+    "domain": "mktgemails.com",
+    "description": "Retention marketing for 7\u20139 figure eCommerce brands.",
+    "category": "Klaviyo",
+    "industries": [
+      "eCom"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743c03917b3baf8a62cf73_Rectangle%2034625385-4.png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743bf87e59a6de2cdaa40e_image%203162-4.png",
+    "order": 20
+  },
+  {
+    "name": "Blue Sense Digital",
+    "slug": "blue-sense-digital",
+    "url": "https://www.bluesensedigital.com.au/",
+    "domain": "bluesensedigital.com.au",
+    "description": "We scale eCommerce brand's traffic by integrating structured testing frameworks.",
+    "category": "Paid Ads",
+    "industries": [
+      "eCom"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743c5a7c4bfa1627963cea_Rectangle%2034625385-5.png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743c5df9db6cc8c77e4854_image%203162-5.png",
+    "order": 21
+  },
+  {
+    "name": "Two Comma Growth",
+    "slug": "two-comma-growth",
+    "url": "https://www.twocommagrowth.com/",
+    "domain": "twocommagrowth.com",
+    "description": "Turns your existing content into 16 high-performing ad creatives a month.",
+    "category": "Paid Ads",
+    "industries": [
+      "eCom"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743ca9ae707ed49b9777c8_Rectangle%2034625385-6.png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743c9d8401ff7a45c8fdaf_image%203162-6.png",
+    "order": 22
+  },
+  {
+    "name": "DataSauce",
+    "slug": "datasauce",
+    "url": "https://www.datasauce.com/",
+    "domain": "datasauce.com",
+    "description": "Scale and grow your business with data-driven, full-service marketing solutions.",
+    "category": "Full Service",
+    "industries": [
+      "eCom"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743cf5bda9eecb3e489393_Rectangle%2034625385-7.png",
+    "logo_url": "https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69743cf0cee12a32886af0f1_image%203162-7.png",
+    "order": 23
+  }
+]

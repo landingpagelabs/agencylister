@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.agencylister.com/sitemap.xml

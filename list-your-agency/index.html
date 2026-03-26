@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List Your Agency — AgencyLister</title>
+  <meta name="description" content="Get discovered by businesses looking for their next agency partner. Submit your agency to AgencyLister.">
+  <link rel="canonical" href="https://www.agencylister.com/list-your-agency/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="List Your Agency — AgencyLister">
+  <meta property="og:description" content="Get discovered by businesses looking for their next agency partner. Submit your agency to AgencyLister.">
+  <meta property="og:url" content="https://www.agencylister.com/list-your-agency/">
+  <meta property="og:site_name" content="AgencyLister">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="List Your Agency — AgencyLister">
+  <meta name="twitter:description" content="Get discovered by businesses looking for their next agency partner.">
+
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    /* ---- Top Banner ---- */
+    .top-banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 55px;
+      background-color: #F8F8FC;
+      background-image: url("https://cdn.prod.website-files.com/697153add41660b05e4efda0/69722b2d97e65d6fa4dbbe06_Banner.avif");
+      background-size: cover;
+      background-position: 50% 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 11px;
+      padding: 8px 20px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #333;
+      z-index: 100;
+    }
+    .top-banner a {
+      color: #0C0C22;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #fff;
+      border: 1px solid #DDCBF3;
+      border-radius: 70px;
+      padding: 8px 16px;
+      transition: 0.4s;
+    }
+    .top-banner a:hover { background: #f5f0fa; }
+
+    /* ---- Main wrapper with banner offset ---- */
+    .lya-main {
+      padding-top: 55px;
+    }
+
+    /* ---- Hero ---- */
+    .lya-hero {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 65px 24px 30px;
+      overflow: hidden;
+    }
+    .lya-hero__decor {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg,
+        rgba(255,66,66,0.36) 0%,
+        rgba(161,255,66,0.36) 25%,
+        rgba(66,161,255,0.36) 50%,
+        rgba(66,208,255,0.36) 75%,
+        rgba(161,66,255,0.36) 100%);
+      filter: blur(70px);
+      opacity: 0.7;
+      pointer-events: none;
+    }
+    .lya-hero__logo {
+      max-width: 200px;
+      height: 40px;
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 1;
+    }
+    .lya-hero__logo img {
+      height: 100%;
+      width: auto;
+      object-fit: contain;
+    }
+    .lya-hero__heading {
+      font-size: 60px;
+      font-weight: 500;
+      line-height: 1.13;
+      letter-spacing: -1.8px;
+      color: #000;
+      text-align: center;
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 1;
+    }
+    .lya-hero__subtitle-wrap {
+      max-width: 610px;
+      margin-bottom: 40px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+    .lya-hero__subtitle {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.45;
+      color: #000;
+    }
+
+    /* ---- Form Card ---- */
+    .lya-form-section {
+      display: flex;
+      justify-content: center;
+      padding: 0 24px 30px;
+      margin-top: -24px;
+      position: relative;
+      z-index: 2;
+    }
+    .lya-form-card-outer {
+      width: 100%;
+      max-width: 714px;
+      background: #F6F7F9;
+      border: 1px solid #EDEFF3;
+      border-radius: 24px;
+      padding: 6px;
+    }
+    .lya-form-card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 20px 24px 12px;
+      box-shadow:
+        0px 1.532px 9.195px rgba(0,0,0,0.02),
+        0px 3.065px 6.13px rgba(0,0,0,0.03),
+        0px 1.532px 3.065px rgba(0,0,0,0.04),
+        0px 0.766px 1.532px rgba(0,0,0,0.05),
+        0px 0.766px 0px rgba(0,0,0,0.06),
+        0px 18.389px 36.778px rgba(0,0,0,0.08);
+    }
+    .lya-form-group {
+      margin-bottom: 0;
+    }
+    .lya-form-label {
+      display: none;
+    }
+    .lya-form-input {
+      display: block;
+      width: 100%;
+      height: 60px;
+      border: 1px solid #EBEBEB;
+      border-radius: 10px;
+      padding: 8px 10px;
+      font-size: 16px;
+      font-family: inherit;
+      font-weight: 400;
+      color: #1A1A1A;
+      background: #fff;
+      transition: border-color 0.2s ease;
+      outline: none;
+    }
+    .lya-form-input::placeholder,
+    .lya-form-textarea::placeholder {
+      color: rgba(7,9,9,0.4);
+    }
+    .lya-form-input:focus,
+    .lya-form-textarea:focus {
+      border-color: #999;
+    }
+    .lya-form-textarea {
+      display: block;
+      width: 100%;
+      min-height: 105px;
+      border: 1px solid #EBEBEB;
+      border-radius: 10px;
+      padding: 14px 12px;
+      font-size: 16px;
+      font-family: inherit;
+      font-weight: 400;
+      color: #1A1A1A;
+      background: #fff;
+      transition: border-color 0.2s ease;
+      outline: none;
+      resize: vertical;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+    form.lya-form {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .lya-form-submit {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 54px;
+      padding: 9px 15px;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: inherit;
+      color: #fff;
+      background: linear-gradient(rgb(66,62,58), rgb(31,28,25));
+      box-shadow:
+        rgba(255,255,255,0.12) 0px 1px 2px 0px inset,
+        rgba(31,31,31,0.01) 0px 16px 8px 0px,
+        rgba(31,31,31,0.04) 0px 12px 6px 0px,
+        rgba(31,31,31,0.07) 0px 4px 4px 0px,
+        rgba(31,31,31,0.08) 0px 1.5px 3px 0px,
+        rgb(15,15,15) 0px 0px 0px 1px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: opacity 0.2s ease;
+    }
+    .lya-form-submit:hover { opacity: 0.9; }
+
+    /* Success / error states */
+    .lya-form-success {
+      display: none;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .lya-form-success h3 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .lya-form-success p {
+      font-size: 16px;
+      color: var(--gray-600);
+    }
+
+    /* ---- Stats Section ---- */
+    .lya-stats {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      padding: 30px 24px;
+      max-width: 714px;
+      margin: 0 auto;
+    }
+    .lya-stat-card {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+      background: #F8F8F9;
+      border: none;
+      border-radius: 14px;
+      padding: 24px;
+      text-align: center;
+    }
+    .lya-stat-number {
+      font-size: 56px;
+      font-weight: 600;
+      line-height: 1.3;
+      color: #333;
+      letter-spacing: normal;
+    }
+    .lya-stat-label {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.45;
+      color: #666363;
+    }
+
+    /* ---- Footer ---- */
+    .lya-footer {
+      background: #fff;
+      padding: 30px 24px 0;
+      text-align: center;
+      overflow: hidden;
+    }
+    .lya-footer__logo {
+      max-width: 235px;
+      height: 35px;
+      margin: 0 auto 13px;
+    }
+    .lya-footer__logo img {
+      height: 100%;
+      width: auto;
+      object-fit: contain;
+    }
+    .lya-footer__desc {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.45;
+      color: #666363;
+      max-width: 608px;
+      margin: 0 auto 27px;
+    }
+    .lya-footer__buttons {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+    .lya-footer__btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 48px;
+      padding: 14px 40px;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: inherit;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+    .lya-footer__btn--outline {
+      background: #EBEBEB;
+      border: none;
+      color: #000;
+    }
+    .lya-footer__btn--outline:hover { background: #e0e0e0; }
+    .lya-footer__btn--filled {
+      background: linear-gradient(rgb(66,62,58), rgb(31,28,25));
+      box-shadow:
+        rgba(255,255,255,0.12) 0px 1px 2px 0px inset,
+        rgba(31,31,31,0.08) 0px 1.5px 3px 0px,
+        rgb(15,15,15) 0px 0px 0px 1px;
+      border: none;
+      color: #fff;
+    }
+    .lya-footer__btn--filled:hover { opacity: 0.9; }
+
+    .lya-footer__watermark {
+      max-width: 1080px;
+      margin: 0 auto 40px;
+      overflow: hidden;
+      border-top: 1px solid #EBEBEB;
+      padding-top: 40px;
+    }
+    .lya-footer__watermark img {
+      width: 100%;
+      height: auto;
+    }
+    .lya-footer__watermark-text {
+      font-size: clamp(60px, 12vw, 160px);
+      font-weight: 600;
+      color: rgba(0,0,0,0.03);
+      line-height: 1;
+      white-space: nowrap;
+      user-select: none;
+    }
+
+    .lya-footer__bottom {
+      border-top: none;
+      padding: 0 0 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 400;
+      color: #333;
+      max-width: 1080px;
+      margin: 0 auto 20px;
+    }
+    .lya-footer__bottom a {
+      color: #646464;
+      text-decoration: none;
+      transition: 0.4s;
+    }
+    .lya-footer__bottom a:hover { color: var(--black); }
+
+    .lya-footer__disclaimer {
+      text-align: center;
+      padding: 0 24px 24px;
+      font-size: 12px;
+      font-weight: 300;
+      color: rgba(0,0,0,0.6);
+      letter-spacing: -0.12px;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.4;
+    }
+
+    /* ---- Responsive ---- */
+    @media (max-width: 640px) {
+      .top-banner { position: relative; height: auto; flex-wrap: wrap; padding: 12px 16px; font-size: 14px; }
+      .top-banner a { font-size: 14px; }
+      .lya-main { padding-top: 0; }
+      .lya-hero { padding: 48px 20px 40px; }
+      .lya-hero__heading { font-size: 40px; letter-spacing: -1.2px; }
+      .lya-hero__subtitle { font-size: 16px; }
+      .lya-form-card-outer { border-radius: 16px; }
+      .lya-form-card { padding: 10px 12px 12px; border-radius: 14px; }
+      .lya-form-input { height: 55px; font-size: 14px; }
+      .lya-form-submit { height: 50px; font-size: 16px; }
+      .lya-stats { flex-direction: column; }
+      .lya-footer__buttons { flex-direction: column; align-items: center; }
+      .lya-footer__bottom { flex-direction: column; gap: 8px; text-align: center; font-size: 15px; }
+      .lya-footer__watermark-text { font-size: clamp(40px, 15vw, 80px); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Banner -->
+  <div class="top-banner">
+    Built By Landing Page Labs <a href="https://links.landingpagelabs.co/agencylister">Try Us Out For $0 Down &rarr;</a>
+  </div>
+
+  <div class="lya-main">
+
+  <!-- Hero -->
+  <section class="lya-hero">
+    <div class="lya-hero__decor"></div>
+    <div class="lya-hero__logo">
+      <img src="https://cdn.prod.website-files.com/697153add41660b05e4efda0/697369598df07057155e1b8d_Container%20(1).avif" alt="AgencyLister">
+    </div>
+    <h1 class="lya-hero__heading">List your agency</h1>
+    <div class="lya-hero__subtitle-wrap">
+      <p class="lya-hero__subtitle">Get discovered by businesses looking for their next agency partner. Complete the form below and our team will review your submission.</p>
+    </div>
+  </section>
+
+  <!-- Form -->
+  <section class="lya-form-section" id="form-block">
+    <div class="lya-form-card-outer">
+    <div class="lya-form-card">
+      <form id="lyaForm" class="lya-form" action="https://formspree.io/f/placeholder" method="POST">
+        <div class="lya-form-group">
+          <label class="lya-form-label" for="firstName">First Name</label>
+          <input class="lya-form-input" type="text" id="firstName" name="firstName" required placeholder="First Name">
+        </div>
+        <div class="lya-form-group">
+          <label class="lya-form-label" for="workEmail">Work Email</label>
+          <input class="lya-form-input" type="email" id="workEmail" name="workEmail" required placeholder="Work Email">
+        </div>
+        <div class="lya-form-group">
+          <label class="lya-form-label" for="agencyUrl">Agency Website URL</label>
+          <input class="lya-form-input" type="text" id="agencyUrl" name="agencyUrl" required placeholder="Agency Website URL">
+        </div>
+        <div class="lya-form-group">
+          <label class="lya-form-label" for="country">Country</label>
+          <input class="lya-form-input" type="text" id="country" name="country" required placeholder="Country">
+        </div>
+        <div class="lya-form-group">
+          <label class="lya-form-label" for="description">1 Sentence Description Of Your Agency</label>
+          <textarea class="lya-form-textarea" id="description" name="description" required placeholder="1 Sentence Description Of Your Agency"></textarea>
+        </div>
+        <button type="submit" class="lya-form-submit">List your agency</button>
+      </form>
+
+      <div class="lya-form-success" id="formSuccess">
+        <h3>Thanks for submitting!</h3>
+        <p>Our team will review your agency and get back to you soon.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="lya-stats">
+    <div class="lya-stat-card">
+      <div class="lya-stat-number">22+</div>
+      <div class="lya-stat-label">Highly-curated, top-tier agencies from around the world.</div>
+    </div>
+    <div class="lya-stat-card">
+      <div class="lya-stat-number">1K+</div>
+      <div class="lya-stat-label">Monthly visitors (and growing fast)</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="lya-footer">
+    <div class="lya-footer__logo">
+      <img src="https://cdn.prod.website-files.com/697153add41660b05e4efda0/697369598df07057155e1b8d_Container%20(1).avif" alt="AgencyLister">
+    </div>
+    <p class="lya-footer__desc">The directory for discovering top marketing agencies. Browse by specialty, country, or industry to find your perfect partner.</p>
+    <div class="lya-footer__buttons">
+      <a href="/" class="lya-footer__btn lya-footer__btn--outline">Browse agencies</a>
+      <a href="#form-block" class="lya-footer__btn lya-footer__btn--filled">List your agency</a>
+    </div>
+    <div class="lya-footer__watermark">
+      <div class="lya-footer__watermark-text">Agency Lister</div>
+    </div>
+
+    <div class="lya-footer__bottom">
+      <span style="display:flex;align-items:center;gap:8px;"><img src="https://cdn.prod.website-files.com/69715ec1ee41cf4ab6f659da/69720cc2e0af95e625151f03_image%203162.png" alt="" style="width:26px;height:26px;border-radius:50%;"> Built By <a href="https://links.landingpagelabs.co/agencylister">Landing Page Labs</a></span>
+      <span>&copy; 2026 agencylister.com</span>
+    </div>
+    <div class="lya-footer__disclaimer">
+      Note: this site uses affiliate links for sponsored posts. If you click a sponsored link we might get a small commission if you sign up.
+    </div>
+  </footer>
+
+  </div><!-- .lya-main -->
+
+  <script>
+    // Handle form submission with fetch for a nice UX
+    var form = document.getElementById('lyaForm');
+    var success = document.getElementById('formSuccess');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var data = new FormData(form);
+
+      fetch(form.action, {
+        method: 'POST',
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      }).then(function(response) {
+        if (response.ok) {
+          form.style.display = 'none';
+          success.style.display = 'block';
+        } else {
+          alert('Something went wrong. Please try again.');
+        }
+      }).catch(function() {
+        alert('Something went wrong. Please try again.');
+      });
+    });
+  </script>
+
+</body>
+</html>
