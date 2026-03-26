@@ -363,5 +363,130 @@
     "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-datasauce-hero.png",
     "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-datasauce-logo.png",
     "order": 23
+  },
+  {
+    "name": "SEOptimize",
+    "slug": "seoptimize",
+    "url": "https://seoptimizellc.com/",
+    "domain": "seoptimizellc.com",
+    "description": "Local SEO agency turning searchers into buyers with lead-gen-driven organic strategies.",
+    "category": "SEO",
+    "industries": [
+      "Lead Gen"
+    ],
+    "country": "United States",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-seoptimize-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-seoptimize-logo.png",
+    "order": 24
+  },
+  {
+    "name": "StudioHawk",
+    "slug": "studiohawk",
+    "url": "https://studiohawk.com.au/",
+    "domain": "studiohawk.com.au",
+    "description": "Australia's specialist SEO agency delivering visibility, traffic, and revenue growth across eCom and SaaS.",
+    "category": "SEO",
+    "industries": [
+      "eCom",
+      "SaaS"
+    ],
+    "country": "Australia",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-studiohawk-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-studiohawk-logo.png",
+    "order": 25
+  },
+  {
+    "name": "The WFS Group",
+    "slug": "the-wfs-group",
+    "url": "https://thewfsgroup.com/",
+    "domain": "thewfsgroup.com",
+    "description": "Full-stack sales agency offering outsourced closers, sales engineering, and pipeline scaling for high-ticket brands.",
+    "category": "Outsourced Sales",
+    "industries": [
+      "Lead Gen",
+      "Info"
+    ],
+    "country": "United States",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-the-wfs-group-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-the-wfs-group-logo.png",
+    "order": 26
+  },
+  {
+    "name": "HYPE",
+    "slug": "hype",
+    "url": "https://www.hype-media.co/",
+    "domain": "hype-media.co",
+    "description": "CRO and landing page agency with 1,000+ A/B tests run for 8-9 figure eCom brands.",
+    "category": "CRO",
+    "industries": [
+      "eCom"
+    ],
+    "country": "Canada",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-hype-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-hype-logo.png",
+    "order": 27
+  },
+  {
+    "name": "ConversionWise",
+    "slug": "conversionwise",
+    "url": "https://conversionwise.com/",
+    "domain": "conversionwise.com",
+    "description": "CRO and landing page design agency with 3,500+ customers served and 460+ five-star reviews.",
+    "category": "CRO",
+    "industries": [
+      "Lead Gen",
+      "SaaS",
+      "eCom"
+    ],
+    "country": "United Kingdom",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-conversionwise-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-conversionwise-logo.png",
+    "order": 28
+  },
+  {
+    "name": "Clients For Free",
+    "slug": "clients-for-free",
+    "url": "https://clientsforfree.com/",
+    "domain": "clientsforfree.com",
+    "description": "Marketing agency helping info brands scale through funnels and copywriting.",
+    "category": "CRO",
+    "industries": [
+      "Info"
+    ],
+    "country": "United States",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-clients-for-free-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-clients-for-free-logo.png",
+    "order": 29
+  },
+  {
+    "name": "The Kiln",
+    "slug": "the-kiln",
+    "url": "https://thekiln.com/",
+    "domain": "thekiln.com",
+    "description": "GTM engineering agency building inbound, outbound, and RevOps systems using Clay. Acquired by 2X.",
+    "category": "RevOps",
+    "industries": [
+      "SaaS",
+      "Lead Gen"
+    ],
+    "country": "United States",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-the-kiln-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-the-kiln-logo.png",
+    "order": 30
+  },
+  {
+    "name": "Sculpted",
+    "slug": "sculpted",
+    "url": "https://sculpted.agency/",
+    "domain": "sculpted.agency",
+    "description": "Clay agency that cleans and enriches CRM data for B2B software teams using HubSpot and Salesforce.",
+    "category": "RevOps",
+    "industries": [
+      "SaaS"
+    ],
+    "country": "United States",
+    "thumbnail": "https://lpl-client-research.b-cdn.net/agencylister/agency-sculpted-hero.png",
+    "logo_url": "https://lpl-client-research.b-cdn.net/agencylister/agency-sculpted-logo.png",
+    "order": 31
   }
 ]
