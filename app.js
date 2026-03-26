@@ -140,7 +140,20 @@
     });
   }
 
-  // --- Load more ---
+  // --- Infinite scroll (IntersectionObserver) ---
+  var loadMoreObserver = null;
+  var sentinel = document.getElementById('loadMoreSentinel');
+
+  if ('IntersectionObserver' in window && sentinel) {
+    loadMoreObserver = new IntersectionObserver(function (entries) {
+      if (entries[0].isIntersecting && visibleCount < totalVisible) {
+        showMore();
+      }
+    }, { rootMargin: '400px' });
+    loadMoreObserver.observe(sentinel);
+  }
+
+  // Fallback: keep click handler for older browsers
   if (loadMoreBtn) {
     loadMoreBtn.addEventListener('click', function () { showMore(); });
   }
@@ -206,7 +219,12 @@
     }
 
     if (loadMoreWrap) {
-      loadMoreWrap.style.display = visibleCount < totalVisible ? 'block' : 'none';
+      // Hide button when using infinite scroll; show only as fallback
+      if (loadMoreObserver) {
+        loadMoreWrap.style.display = 'none';
+      } else {
+        loadMoreWrap.style.display = visibleCount < totalVisible ? 'block' : 'none';
+      }
     }
 
     if (loadMoreBtn) {
