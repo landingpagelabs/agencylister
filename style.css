@@ -658,6 +658,7 @@ button { font-family: inherit; }
   border-radius: 8px;
   border: 1px solid #f4f4f4;
   object-fit: cover;
+  object-position: top;
   background: var(--gray-100);
   transition: transform 0.3s ease;
 }
