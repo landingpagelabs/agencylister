@@ -16,9 +16,9 @@
   --black: #000000;
   --text-name: rgba(0,0,0,0.8);
   --text-value: #333333;
-  --gray-600: #787878;
-  --gray-700: #787878;
-  --gray-800: #999999;
+  --gray-600: #5e5e5e;
+  --gray-700: #5e5e5e;
+  --gray-800: #6b6b6b;
 
   /* Accent */
   --accent: #6e30f7;
@@ -334,7 +334,7 @@ button { font-family: inherit; }
 
 .hero_aside-footer-copyright {
   font-size: 12px;
-  color: #787878;
+  color: var(--gray-700);
 }
 
 .hero_aside-footer-cta {
@@ -876,7 +876,7 @@ button { font-family: inherit; }
 
 /* --- Category / Country cross-links --- */
 .category-cross-links { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--gray-300); }
-.category-cross-links h3 { font-size: 14px; font-weight: 600; margin-bottom: 12px; color: var(--gray-600); }
+.category-cross-links h2 { font-size: 14px; font-weight: 600; margin-bottom: 12px; color: var(--gray-600); }
 .category-cross-links__list { display: flex; flex-wrap: wrap; gap: 8px; }
 .category-cross-links__list a { font-size: 13px; padding: 6px 12px; background: var(--gray-100); border-radius: 100px; color: var(--black); transition: background 0.2s; }
 .category-cross-links__list a:hover { background: var(--gray-300); }

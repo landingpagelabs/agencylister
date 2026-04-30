@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="preconnect" href="https://lpl-client-research.b-cdn.net" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="https://lpl-client-research.b-cdn.net/agencylister/fonts/TWKLausanne-300.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="https://lpl-client-research.b-cdn.net/agencylister/fonts/TWKLausanne-400.woff2" crossorigin>
+
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -366,7 +370,10 @@
       width: 100%;
       height: auto;
     }
-    .lya-footer__watermark-text {
+    .lya-footer__watermark-text { line-height: 1; }
+    .lya-footer__watermark-text::before {
+      content: "Agency Lister";
+      display: block;
       font-size: clamp(60px, 12vw, 160px);
       font-weight: 600;
       color: rgba(0,0,0,0.03);
@@ -436,7 +443,7 @@
     Built By Landing Page Labs <a href="https://links.landingpagelabs.co/agencylister">Try Us Out For $0 Down &rarr;</a>
   </div>
 
-  <div class="lya-main">
+  <main class="lya-main" id="main">
 
   <!-- Hero -->
   <section class="lya-hero">
@@ -508,8 +515,8 @@
       <a href="/" class="lya-footer__btn lya-footer__btn--outline">Browse agencies</a>
       <a href="#form-block" class="lya-footer__btn lya-footer__btn--filled">List your agency</a>
     </div>
-    <div class="lya-footer__watermark">
-      <div class="lya-footer__watermark-text">Agency Lister</div>
+    <div class="lya-footer__watermark" aria-hidden="true">
+      <div class="lya-footer__watermark-text"></div>
     </div>
 
     <div class="lya-footer__bottom">
@@ -521,7 +528,7 @@
     </div>
   </footer>
 
-  </div><!-- .lya-main -->
+  </main><!-- .lya-main -->
 
   <script>
     // Handle form submission with fetch for a nice UX

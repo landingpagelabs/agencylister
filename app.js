@@ -37,10 +37,6 @@
       categoryItems.forEach(function (b) { b.classList.remove('active'); });
       btn.classList.add('active');
 
-      // Update hidden radio
-      var radio = btn.querySelector('input[type="radio"]');
-      if (radio) radio.checked = true;
-
       // On mobile, collapse categories after selection
       if (categoryList && window.innerWidth <= 991) {
         categoryList.classList.add('collapsed');
